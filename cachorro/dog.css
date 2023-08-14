@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffe97c;
+
+
+}
+.container{
+    height: 31.25em;
+    width: 31.25em;
+    border: 1px solid black;
+    position: absolute;
+    transform: translate(-50%,50%);
+    left: 50%;
+    top:50%;
+}
+.dog{
+    width: 16.25em;
+    height: 6.25em;
+    background-color: #ee9728;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left:calc(50% + 3.12em);
+    border-radius: 0 3.75em 0 6.25em;
+}
+.dog-bottom{
+    position: absolute;
+    width: 16.25em;
+    height: 7.5em;
+    background-color: #e97833;
+    transform: translate(-50%,50%);
+}
